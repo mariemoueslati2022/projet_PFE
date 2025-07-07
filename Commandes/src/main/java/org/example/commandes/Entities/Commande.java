@@ -36,6 +36,5 @@ public class Commande {
     @OneToMany(mappedBy = "commande", cascade = CascadeType.ALL, orphanRemoval = true)
     private List<LigneCommande> lignesCommande;
 
-    public Long getEntreprise() {
-    }
+
 }

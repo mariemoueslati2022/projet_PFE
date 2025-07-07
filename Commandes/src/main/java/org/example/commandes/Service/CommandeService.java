@@ -57,9 +57,5 @@ public class CommandeService {
         return commandeRepository.save(commande);
     }
 
-    public Commande createCommande(Commande commande) {
-    }
 
-    public Commande updateCommande(Long id, Commande commande) {
-    }
 }
